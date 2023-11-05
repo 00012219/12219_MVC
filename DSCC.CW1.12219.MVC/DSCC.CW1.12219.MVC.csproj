@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DSCC.CW1._12219.MVC</RootNamespace>
+    <UserSecretsId>4508a6eb-71f3-4477-954c-4ee1b8450ffd</UserSecretsId>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Order\Create.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Order\Delete.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Order\Details.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Order\Edit.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Order\Index.cshtml" />
+  </ItemGroup>
+
+</Project>
